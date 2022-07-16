@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.canvas-section {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url(./abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-container {
+    background-color: rgba(255, 255, 255, 0.705);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.canvas-container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: rgb(0, 0, 41);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.canvas-container .canvas {
+    border: 1px solid rgb(0, 0, 41);
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.input-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-cont p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 41);
+    margin-right: 15px;
+}
+
+.input-button {
+    background-color: rgb(0, 0, 41);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.canvas-container p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
